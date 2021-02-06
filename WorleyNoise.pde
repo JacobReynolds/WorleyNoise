@@ -2,8 +2,8 @@ FeaturePoint[] featurePoints = new FeaturePoint[10];
 int featureN = 0;
 
 void setup() {
-  size(400,400);  // Size must be the first statement
-  stroke(255);     // Set line drawing color to white
+  size(400,400);  
+  stroke(255);  
   frameRate(30);
 
   for (int i = 0; i < featurePoints.length; i++) {
